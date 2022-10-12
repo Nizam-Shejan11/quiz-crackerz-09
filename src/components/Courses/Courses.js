@@ -21,7 +21,7 @@ const Courses = () => {
                 <img className="w-25 img-thumbnail" src={course.logo} alt="" />
                 <h2 className="fs-5 mt-4"> {course.name}</h2>
                 <p className="lead fs-5 pt-2">Moto: {course.its_title}</p>
-                <p className="lead fs-5">Quiz: {course.total}</p>
+                <p className="lead fs-5">Price: {course.total}$</p>
                 <small className="text-success">{course.access}</small>
               </div>
             </div>

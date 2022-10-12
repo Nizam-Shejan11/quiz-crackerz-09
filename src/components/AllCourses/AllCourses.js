@@ -34,7 +34,7 @@ const AllCourses = () => {
                 <div className="logo-image">
                   <img className="img-fluid" src={course.logo} alt="" />
                   <h2 className="fs-5 mt-2">{course.name}</h2>
-                  <p className="lead fs-5">Quizs :{course.total}</p>
+                  <p className="lead fs-5">Price :{course.total}$</p>
                   <small className="text-success">{course.access}</small> <br />
                   <Link to={`/details/${course.id}`}>
                     <Button className="btn btn-outline-success mt-2">
