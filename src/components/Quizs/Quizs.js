@@ -15,6 +15,12 @@ const Quizs = () => {
   return (
     <div className="all-quiz">
       <h2 className="text-white">Quiz of {details.name}</h2>
+      <br />
+      <p className="text-white">
+        This Section is pending due to device issue..
+        <br />
+        <p>So kindly, think positive about it. </p>
+      </p>
     </div>
   );
 };
