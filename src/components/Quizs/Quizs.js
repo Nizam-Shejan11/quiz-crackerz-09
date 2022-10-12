@@ -13,8 +13,8 @@ const Quizs = () => {
       .then((data) => setDetails(data[courseId]));
   }, []);
   return (
-    <div>
-      <h2>Quiz of {details.name}</h2>
+    <div className="all-quiz">
+      <h2 className="text-white">Quiz of {details.name}</h2>
     </div>
   );
 };
