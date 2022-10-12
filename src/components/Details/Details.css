@@ -4,6 +4,7 @@
 .details-courses {
   padding: 20px;
 }
-.cart {
+.cart,
+.thumbnail {
   background-color: rgb(251, 250, 250);
 }

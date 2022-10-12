@@ -24,11 +24,11 @@ const Details = (props) => {
       <Quizs></Quizs>
       <div className="container mt-5 border-top pt-5">
         <div className="mb-5 row d-flex details-teams align-items-start justify-content-center text-white">
-          <div className="col-md-6 text-start border-end">
+          <div className=" col-md-6 text-start border-end">
             <img
               src={details.logo}
               alt=""
-              className="mt-2 img-fluid img-thumbnail"
+              className="thumbnail mt-2 img-fluid img-thumbnail"
             />
             <br />
             <h1 className="mt-3 mb-3">{details.name}</h1>
