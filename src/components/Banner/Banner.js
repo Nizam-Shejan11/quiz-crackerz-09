@@ -11,12 +11,12 @@ const Banner = () => {
           <MenuBar></MenuBar>
           <div className="col-6">
             <h1 className="title">
-              break a leg <br /> in your SATs 📈
+              break a leg <br /> in your Skills 📈
             </h1>
             <p className="text-white text-center mt-3">
-              A comprehensive resource for college apps, TOEFL and SAT. <br />
+              A comprehensive resource for programming. <br />
               <small className="text-warning">
-                new update* - the list of 100% full ride university is published
+                new update* - the list of 100% full ride course is published
               </small>
             </p>
             <Button variant="outline-success about-btn">who are we?</Button>

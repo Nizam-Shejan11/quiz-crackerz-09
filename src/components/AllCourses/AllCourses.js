@@ -21,8 +21,8 @@ const AllCourses = () => {
       <div className="all-course">
         <h1>Explore Resources</h1>
         <p className="lead fs-6">
-          here is a little bit about our library of resources for your TOEFL,
-          SAT, and Computer Science studies
+          here is a little bit about our library of resources for your
+          Programming...
         </p>
         <br />
       </div>
@@ -54,7 +54,7 @@ const AllCourses = () => {
             <div className="p-5 col-md-6 text-start text-white">
               <h2>Grab a 50% offer</h2>
               <p className="lead fs-5">
-                get our deal and have a chance to study for your desired subject
+                get our deal and have a chance to study for your desired course
                 abroad and get your dream job
               </p>
             </div>
@@ -65,7 +65,7 @@ const AllCourses = () => {
       <div className="row">
         <div className="section-header text-center">
           <h1 className="mt-5">
-            Why SAT<span style={{ color: "#374050" }}>50 ?</span>
+            Why Quiz<span style={{ color: "#374050" }}>Game ?</span>
           </h1>
           <p className="lead fs-5">
             because we have the best resources avaiable, not just to study but

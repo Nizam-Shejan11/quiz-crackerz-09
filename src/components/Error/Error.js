@@ -11,7 +11,7 @@ const Error = () => {
         style={{ fontSize: "5em", padding: "10%" }}
         className=" mb-5 text-white mt-5"
       >
-        OOPS 🤭 <span className="text-danger">404</span> !!!
+        Opps 🤭 <span className="text-danger">404</span> !!!
       </h1>
       <Footer></Footer>
     </div>

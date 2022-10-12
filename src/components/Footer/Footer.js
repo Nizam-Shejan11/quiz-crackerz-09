@@ -45,8 +45,8 @@ const Footer = () => {
 
                 <p className="mt-5">
                   <small>
-                    <FontAwesomeIcon icon={faCopyright} /> Jamiul Islam 2022 ||
-                    Programming Hero Assignment 09
+                    <FontAwesomeIcon icon={faCopyright} /> Nizam Uddin Shejan
+                    2022 || Programming Hero Assignment 09
                   </small>
                 </p>
               </div>
@@ -74,8 +74,8 @@ const Footer = () => {
                   </div>
                   <div>
                     <p>
-                      Fulbari Sarkar Para, Ward No 18
-                      <br /> House No 87, Bogra Sadar, Bogra-5800
+                      Silimpur Moddho Para, Ward No 14
+                      <br /> Bogra Sadar, Bogra-5800
                     </p>
                   </div>
                 </div>
