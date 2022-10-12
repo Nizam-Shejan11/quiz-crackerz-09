@@ -22,7 +22,16 @@ const Blog = () => {
           </div>
           <br />
           <br />
-
+          <div className="qsn-2">
+            <h2>Question : How to work Context API ??</h2>
+            <h6>
+              Answer : React context API, In this article you will explore what
+              is Context API and how to use it in your React project. The
+              Context API is a React structure that enables you to exchange
+              unique details and assists in solving prop-drilling from all
+              levels of your application.
+            </h6>
+          </div>
           <br />
           <br />
 
