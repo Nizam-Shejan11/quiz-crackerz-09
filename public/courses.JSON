@@ -1,0 +1,46 @@
+[
+    {
+        "id":0,
+        "name":"React",
+        "access": "premium",
+        "time":"60 hours",
+        "logo":"https://live.staticflickr.com/65535/52413593240_e00326e727_o.png",
+        "total":8,
+        "its_title": "Learn to think",
+        "its_paragraph": "Brilliant replaces lecture videos with hands-on, interactive lessons. It’s a better (and more fun) way to learn. Build confidence with hands-on learning. You'll get to see concepts visually, interact with key ideas, and solve challenging problems that get you to really think. All of our courses are crafted by award-winning teachers, researchers, and professionals from MIT, Caltech, Duke, Microsoft, Google, and more."
+        
+    },
+
+    {
+        "id":1,
+        "name":"JavaScript",
+        "access": "premium",
+        "time":"50 hours",
+        "logo":"https://live.staticflickr.com/65535/52412638962_12e932256a_o.png",
+        "total":9,
+        "its_title": "Learn to think",
+        "its_paragraph": "Brilliant replaces lecture videos with hands-on, interactive lessons. It’s a better (and more fun) way to learn. Build confidence with hands-on learning. You'll get to see concepts visually, interact with key ideas, and solve challenging problems that get you to really think. All of our courses are crafted by award-winning teachers, researchers, and professionals from MIT, Caltech, Duke, Microsoft, Google, and more."
+    },
+
+    {
+        "id":2,
+        "name":"CSS",
+        "access": "premium",
+        "time":"40 hours",
+        "logo":"https://live.staticflickr.com/65535/52413665713_5977a693cb_o.png",
+        "total":8,
+        "its_title": "Learn to think",
+        "its_paragraph": "Brilliant replaces lecture videos with hands-on, interactive lessons. It’s a better (and more fun) way to learn. Build confidence with hands-on learning. You'll get to see concepts visually, interact with key ideas, and solve challenging problems that get you to really think. All of our courses are crafted by award-winning teachers, researchers, and professionals from MIT, Caltech, Duke, Microsoft, Google, and more."
+    },
+
+    {
+        "id":3,
+        "name":"Git",
+        "access": "premium",
+        "time":"20 hours",
+        "logo":"https://live.staticflickr.com/65535/52412639027_5692c15b3f_o.png",
+        "total":11,
+        "its_title": "Learn to think",
+        "its_paragraph": "Brilliant replaces lecture videos with hands-on, interactive lessons. It’s a better (and more fun) way to learn. Build confidence with hands-on learning. You'll get to see concepts visually, interact with key ideas, and solve challenging problems that get you to really think. All of our courses are crafted by award-winning teachers, researchers, and professionals from MIT, Caltech, Duke, Microsoft, Google, and more."
+    }
+]
