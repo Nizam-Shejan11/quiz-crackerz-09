@@ -32,7 +32,7 @@ const Details = (props) => {
             />
             <br />
             <h1 className="mt-3 mb-3">{details.name}</h1>
-            <p className="lead"> Price: {details.total}</p>
+            <p className="lead"> Price: {details.total}$</p>
             <p className="lead"> Course Length: {details.time}</p>
           </div>
           <div className="col-md-6 text-start">
