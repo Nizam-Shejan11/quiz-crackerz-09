@@ -1,56 +1,47 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./components/Home/Home";
-import Details from "./components/Details/Details";
-import Error from "./components/Error/Error";
-import About from "./components/About/About";
-import { createContext } from "react";
-import { useState } from "react";
-import { useEffect } from "react";
-import Courses from "./components/Courses/Courses";
 import Blog from "./components/Blog/Blog";
-
-export const courseContext = createContext();
+import Error from "./components/Error/Error";
+import Home from "./components/Home/Home";
+import MyQuiz from "./components/MyQuiz/MyQuiz";
+import Statistics from "./components/Statistics/Statistics";
+import Main from "./layouts/Main";
 
 function App() {
-  const [courseitem, setCourseitem] = useState();
-  useEffect(() => {
-    fetch(`../.././courses.JSON`)
-      .then((res) => res.json())
-      .then((data) => setCourseitem(data));
-  }, []);
-  // console.log(courseitem);
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Main></Main>,
+      children: [
+        {
+          path: "/",
+          loader: () => fetch("https://openapi.programming-hero.com/api/quiz"),
+          element: <Home></Home>,
+        },
+        {
+          path: "/statistics",
+          loader: () => fetch("https://openapi.programming-hero.com/api/quiz"),
+          element: <Statistics></Statistics>,
+        },
+        {
+          path: "/blogs",
+          element: <Blog></Blog>,
+        },
+        {
+          path: "/quiz/:quizId",
+          loader: ({ params }) =>
+            fetch(
+              `https://openapi.programming-hero.com/api/quiz/${params.quizId}`
+            ),
+          element: <MyQuiz></MyQuiz>,
+        },
+      ],
+    },
+    { path: "*", element: <Error></Error> },
+  ]);
   return (
     <div className="App">
-      <courseContext.Provider value={courseitem}>
-        <Router>
-          <Switch>
-            <Route exact path="/">
-              <Home></Home>
-            </Route>
-            <Route path="/home">
-              <Home></Home>
-            </Route>
-            <Route path="/about">
-              <About></About>
-            </Route>
-            <Route path="/courses">
-              <Courses></Courses>
-            </Route>
-            <Route path="/blog">
-              <Blog></Blog>
-            </Route>
-            <Route path="/details/:courseId">
-              <Details></Details>
-            </Route>
-
-            <Route path="*">
-              <Error></Error>
-            </Route>
-          </Switch>
-        </Router>
-      </courseContext.Provider>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }

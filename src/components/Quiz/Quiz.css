@@ -1,0 +1,21 @@
+.quiz {
+  border: 1px solid rgb(100, 99, 99);
+  border-radius: 10px;
+  margin: 20px;
+  padding-bottom: 20px;
+  width: 20rem;
+  background-color: rgb(231, 237, 237);
+}
+.quiz img {
+  width: 100%;
+}
+.quiz button {
+  background-color: rgb(22, 121, 214);
+  border: 1px solid rgb(151, 145, 145);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.start-btn a {
+  text-decoration: none;
+  color: white;
+}
